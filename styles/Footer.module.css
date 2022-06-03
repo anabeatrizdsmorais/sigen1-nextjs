@@ -1,0 +1,13 @@
+.footer {
+    background-color: #fff;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+    padding: 10px;
+}
+
+.buttons{
+    width: 200px;
+    margin-right: 50px;
+}
