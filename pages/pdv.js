@@ -1,7 +1,6 @@
 
 import styles from '../styles/Pdv.module.css';
 
-
 export default function Pdv () {
     return (
         <div className={styles.pdv}>
@@ -35,63 +34,126 @@ export default function Pdv () {
                 </div>
 
                 <div className='row'>
-                    <div className='col-md-7'>
+                    <div className='col-md-7' id={styles.tableScrool}>
                         <table className='table table-hover'>
                             <thead className='table-primary'>
                                 <tr>
-                                    <th>Produto</th>
-                                    <th>Estoque</th>
-                                    <th>Quantidade</th>
-                                    <th>Valor</th>
-                                    <th>Total</th>
-                                    <th>Apagar</th>
+                                    <th width="40%">Produto</th>
+                                    <th width="10%">Estoque</th>
+                                    <th width="10%">Quantidade</th>
+                                    <th width="20%">Valor</th>
+                                    <th width="20%">Total</th>
+                                    <th width="5%">Apagar</th>
                                 </tr>
                             </thead>
                             <tbody className="table-light">
                                 <tr>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
+                                    <td>Camisa G</td>
+                                    <td>5,000</td>
+                                    <td>1,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 35,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
                                 </tr>
                                 <tr>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    
+                                    <td>Camisa M</td>
+                                    <td>7,000</td>
+                                    <td>2,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 70,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Camisa G</td>
+                                    <td>5,000</td>
+                                    <td>1,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 35,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Camisa M</td>
+                                    <td>7,000</td>
+                                    <td>2,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 70,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Camisa G</td>
+                                    <td>5,000</td>
+                                    <td>1,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 35,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Camisa M</td>
+                                    <td>7,000</td>
+                                    <td>2,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 70,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Camisa G</td>
+                                    <td>5,000</td>
+                                    <td>1,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 35,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Camisa M</td>
+                                    <td>7,000</td>
+                                    <td>2,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 70,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Camisa G</td>
+                                    <td>5,000</td>
+                                    <td>1,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 35,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Camisa M</td>
+                                    <td>7,000</td>
+                                    <td>2,000</td>
+                                    <td>R$ 35,00</td>
+                                    <td>R$ 70,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
                                 </tr>
                             </tbody>
                         </table>
                     
                     </div>
 
-                    <div className='col-md-5'>
+                    <div className='col-md-5' id={styles.tableScrool}>
                         <table className='table table-hover'>
                             <thead className='table-success'>
                                 <tr>
-                                    <th>Pagamento</th>
-                                    <th>Parcelas</th>
-                                    <th>Valor Pago</th>
-                                    <th>Apagar</th>
+                                    <th width="50%">Pagamento</th>
+                                    <th width="10%">Parcelas</th>
+                                    <th width="30%">Valor Pago</th>
+                                    <th width="5%">Apagar</th>
                                 </tr>
                             </thead>
                             <tbody className="table-light">
                                 <tr>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
+                                    <td>Dinheiro</td>
+                                    <td>1</td>
+                                    <td>R$ 55,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
                                 </tr>
                                 <tr>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
+                                    <td>Cartão Débito</td>
+                                    <td>1</td>
+                                    <td>R$ 50,00</td>
+                                    <td><button className='btn btn-danger'>X</button></td>
                                 </tr>
                             </tbody>
                         </table>
