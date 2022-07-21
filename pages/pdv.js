@@ -1,7 +1,10 @@
 
 import styles from '../styles/Pdv.module.css';
+import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
+import React from "react" ;
 
 export default function Pdv () {
+  
     return (
         <div className={styles.pdv}>
             <div className="container">
@@ -9,7 +12,13 @@ export default function Pdv () {
                 <div className='row'>
                     <div className="col-md-3">
                         <label className='form-label'>Tabela de preço:</label>
-                        <input type="text" className="form-control"></input>
+                        <select className='form-select'>
+                            <option>TESTE 1</option>
+                            <option>TESTE 2</option>
+                            <option>TESTE 3</option>
+                            <option>TESTE 4</option>
+                            <option>TESTE 5</option>
+                        </select>
                     </div>
 
                     <div className="col-md-3">
@@ -18,18 +27,24 @@ export default function Pdv () {
                             <input type="text" className="form-control"></input>
                             <span className="input-group-text" id="basic-addon2">tecle ENTER</span>
                         </div>
-                        <small>Aperte &quot;F2&quot; para dar foco ao campo acima.</small>
+                        <small className={styles.smallObs}>Aperte &quot;F2&quot; para dar foco ao campo acima.</small>
                     </div>
 
                     <div className="col-md-3">
                         <label className='form-label'>Vendedor:</label>
-                        <input type="text" className="form-control" placeholder='Selecione um vendedor'></input>
+                        <select className='form-select'>
+                            <option>TESTE 1</option>
+                            <option>TESTE 2</option>
+                            <option>TESTE 3</option>
+                            <option>TESTE 4</option>
+                            <option>TESTE 5</option>
+                        </select>
                     </div>
 
                     <div className="col-md-3">
                         <label className='form-label'>Prazo de entrega:</label>
                         <input type="text" className="form-control"></input>
-                        <small>Impressão do Romaneio na VENDA DO DIA, quando estiver preenchido o prazo de entrega.</small>
+                        <small className={styles.smallObs}>Impressão do Romaneio na VENDA DO DIA, quando estiver preenchido o prazo de entrega.</small>
                     </div>
                 </div>
 
@@ -162,7 +177,6 @@ export default function Pdv () {
 
             </div>
 
-           
         </div>
     )
 }

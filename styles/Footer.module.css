@@ -11,3 +11,20 @@
     width: 200px;
     margin-right: 50px;
 }
+
+.cardsPayment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cardPayment {
+    background-color: #575757;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    width: 350px;
+    height: 150px;
+}
